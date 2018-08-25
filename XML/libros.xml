@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+	<libro categoria="cocina">
+		<titulo lang="en">Todos los dias italia</titulo>
+		<autor>Giada</autor>
+		<anio>2005</anio>
+		<precio>30</precio>
+	</libro>
+
+	<libro categoria="niños">
+		<titulo lang="en">Harry potter</titulo>
+		<autor>J K. Rowling</autor>
+		<anio>2005</anio>
+		<precio>30</precio>
+	</libro>
+
+	<libro categoria="web">
+		<titulo lang="en">Xquery</titulo>
+		<autor>James</autor>
+		<anio>2003</anio>
+		<precio>40</precio>
+	</libro>
+</tienda>		

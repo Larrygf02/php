@@ -1,0 +1,24 @@
+<?php
+	$x=5;
+	$y=6;
+	function adition(){
+		$GLOBALS['z']=$GLOBALS['y']+$GLOBALS['x'];
+	}
+	adition();
+	echo "la suma de $x y $y es $z";
+	echo "<br>";
+	echo $_SERVER['PHP_SELF'];
+	echo "<br>";
+	echo $_SERVER['SERVER_NAME'];
+	echo "<br>";
+	echo $_SERVER['HTTP_HOST'];
+	echo "<br>";
+	//echo $_SERVER['HTTP_REFERER'];
+	//echo "<br>";
+	echo $_SERVER['HTTP_USER_AGENT'];
+	echo "<br>";
+	echo $_SERVER['SCRIPT_NAME'];
+	echo "<br>";
+    echo $_SERVER['SERVER_ADDR'];
+	echo "<br>";
+?>
